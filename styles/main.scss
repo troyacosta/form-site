@@ -1,43 +1,74 @@
 @import "normalize";
-
 body {
-	background: #4CA4D8;
-	padding: 2em;
-	color: #fff;
+    background: #4CA4D8;
+    color: #fff;
+    padding: 1em 0;
 }
+
 input::-webkit-input-placeholder {
-   color: #10689A;
-   font-style: italic;
+    color: #10689A;
+    font-style: italic;
 }
+
 .full-width {
-	width: 100%;
+    width: 93%;
 }
-.section-one, .section-two, .section-three {
-	label {
-		display: block;
-	}
-	input, textarea {
-		background: transparent;
-		border: .15em solid #fff;
-		padding: .25em;
-		margin: .25em .5em 1.5em 0;
-	}
-	select {
-		width: 100%;
-		background: transparent;
-		margin: .25em 0 1.5em 0;
-	}
-	textarea {
-		height: 15em;
-	}
-	.favorite {
-		margin-bottom: 1em;
-	}
+
+.section-one,
+.section-two,
+.section-three {
+	margin-left: 1em;
+
+    label {
+        display: block;
+    }
+    input,
+    textarea {
+        background: transparent;
+        border: .15em solid #fff;
+        padding: .25em;
+        margin: .25em 0 1.5em 0;
+    }
+    select {
+        width: 93%;
+        background: transparent;
+        margin: .25em 0 1.5em 0;
+    }
+    textarea {
+        height: 15em;
+    }
+    .favorite {
+        margin-bottom: 1em;
+    }
 }
+
 button {
-	display: block;
-	margin: 0 auto;
-	background: #10689A;
-	border: none;
-	padding: 1.5em;
+    display: block;
+    margin: 0 auto;
+    background: #10689A;
+    border: none;
+    padding: 1.5em;
 }
+
+
+/* media quary for tablet */
+
+@media screen and (min-width: 48em) {
+	.section-one,
+	.section-two {
+		width: 47%;
+		float: left;
+	}
+	.section-three {
+		clear: both;
+		width: 100%;
+	}
+
+}
+
+/* media quary for laptop */
+
+@media screen and (min-width: 70.125em) {
+	
+}
+
