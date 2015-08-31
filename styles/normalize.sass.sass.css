@@ -354,24 +354,3 @@ table {
 td,
 th {
   padding: 0; }
-
-body {
-  background: #4CA4D8;
-  padding: 2em;
-  color: #fff; }
-
-input::-webkit-input-placeholder {
-  color: #10689A;
-  font-style: italic; }
-
-.section-one label {
-  display: block; }
-
-.section-one input, .section-one textarea {
-  background-color: transparent;
-  border: .15em solid #fff;
-  width: 100%; }
-
-.section-one select {
-  width: 100%;
-  background-color: transparent; }

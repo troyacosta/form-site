@@ -2,9 +2,60 @@
 <html>
 <head>
 	<title>Form Site</title>
-	<link rel="stylesheet" type="text/css" href="styles/main.sass.sass.scss">
+	<link rel="stylesheet" type="text/css" href="styles/main.sass.sass.css">
 </head>
 <body>
-
+	<form>
+	<section class="section-one">
+		<label>FIRST NAME</label>
+		<input type="text" name="first-name" placeholder="Jonathon">
+		<label>LAST NAME</label>
+		<input type="text" name="last-name" placeholder="Doe">
+		<label>EMAIL ADDRESS</label>
+		<input type="text" name="email" placeholder="jon@doe.com">
+		<label>COUNTRY</label>
+		<select name="country">
+			<option value="value1">Choose a country</option>
+		</select>
+		<label>BIOGRAPHY</label>
+		<textarea></textarea>
+	</section>
+	<section class="section-two">
+		<label>PHONE NUMBER</label>
+		<input type="number" name="phone-number" placeholder="+351 999 9999">
+		<label>AFFILIATIONS</label>
+		<textarea></textarea>
+		<label>OCCUPATION</label>
+		<select name="occupation">
+			<option value="value1">Choose an occupation</option>
+		</select>
+		<label>CAT'S NAME</label>
+		<input type="text" name="cats-name" placeholder="Kitty">
+		<label>FAVORITE GADGET</label>
+		<input type="radio" name="gadge" value="healing" >HEALING HOCKEY DYNABOMB <br />
+		<input type="radio" name="gadge" value="garlic" >GARLIC GYRO-STABILIZED AQUAWASHER <br />
+		<input type="radio" name="gadge" value="nuclear" >NUCLEAR HAIRSPRAY <br />
+		<input type="radio" name="gadge" value="stabilized" >STABILIZED EXPLOSIVE LADLE <br />
+	</section>
+	<section class="section-three">
+		<label>TYPE OF TALENT</label>
+		<select name="talent">
+			<option value="value1">Choose a talent</option>
+		</select>
+		<label>FAVORITE DRINKS</label>
+		<input type="checkbox" name="drink" value="juice">ORANGE JUICE <br />
+		<input type="checkbox" name="drink" value="coffee">COFFEE <br />
+		<input type="checkbox" name="drink" value="soda">SODA <br />
+		<input type="checkbox" name="drink" value="beer">BEER <br />
+		<input type="checkbox" name="drink" value="wine">WINE <br />
+		<label>SPECIAL POWER</label>
+		<input type="text" name="power" placeholder="Anti-gravity">
+		<label>WEAPON OF CHOICE</label>
+		<input type="text" name="weapon" placeholder="Lightsaber">
+		<label>COMMENTS</label>
+		<textarea></textarea>
+	</section>
+	<button name="send-data">SEND YOUR DATA</button>
+	</form>
 </body>
 </html>
