@@ -384,13 +384,13 @@ input::-webkit-input-placeholder {
     background: transparent;
     border: .15em solid #fff;
     padding: .5em;
-    margin: 0.25em 0 1.5em 0; }
+    margin: 0.25em 1em 1.5em 0; }
   .section-one select,
   .section-two select,
   .section-three select {
     width: 93%;
     background: transparent;
-    margin: 0.25em 0 1.5em 0; }
+    margin: 0.25em 1em 1.5em 0; }
   .section-one textarea,
   .section-two textarea,
   .section-three textarea {
