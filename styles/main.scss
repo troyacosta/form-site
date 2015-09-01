@@ -1,4 +1,5 @@
 @import "normalize";
+
 body {
     background: #4CA4D8;
     color: #fff;
@@ -11,14 +12,13 @@ input::-webkit-input-placeholder {
 }
 
 .full-width {
-    width: 93%;
+    width: 96%;
 }
 
 .section-one,
 .section-two,
 .section-three {
-	margin-left: 1em;
-
+    margin: 0 1em;
     label {
         display: block;
     }
@@ -26,7 +26,7 @@ input::-webkit-input-placeholder {
     textarea {
         background: transparent;
         border: .15em solid #fff;
-        padding: .25em;
+        padding: .5em;
         margin: .25em 0 1.5em 0;
     }
     select {
@@ -50,25 +50,27 @@ button {
     padding: 1.5em;
 }
 
-
 /* media quary for tablet */
 
 @media screen and (min-width: 48em) {
-	.section-one,
-	.section-two {
-		width: 47%;
-		float: left;
-	}
-	.section-three {
-		clear: both;
-		width: 100%;
-	}
-
+    .section-one,
+    .section-two {
+        width: 46%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .section-three {
+        width: 100%;
+    }
 }
 
 /* media quary for laptop */
 
 @media screen and (min-width: 70.125em) {
-	
+    .section-one,
+    .section-two,
+    .section-three {
+        display: inline-block;
+        width: 30%;
+    }
 }
-

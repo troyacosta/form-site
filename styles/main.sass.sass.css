@@ -365,12 +365,12 @@ input::-webkit-input-placeholder {
   font-style: italic; }
 
 .full-width {
-  width: 93%; }
+  width: 96%; }
 
 .section-one,
 .section-two,
 .section-three {
-  margin-left: 1em; }
+  margin: 0 1em; }
   .section-one label,
   .section-two label,
   .section-three label {
@@ -383,7 +383,7 @@ input::-webkit-input-placeholder {
   .section-three textarea {
     background: transparent;
     border: .15em solid #fff;
-    padding: .25em;
+    padding: .5em;
     margin: 0.25em 0 1.5em 0; }
   .section-one select,
   .section-two select,
@@ -411,10 +411,16 @@ button {
 @media screen and (min-width: 48em) {
   .section-one,
   .section-two {
-    width: 47%;
-    float: left; }
+    width: 46%;
+    display: inline-block;
+    vertical-align: top; }
   .section-three {
-    clear: both;
     width: 100%; } }
 
 /* media quary for laptop */
+@media screen and (min-width: 70.125em) {
+  .section-one,
+  .section-two,
+  .section-three {
+    display: inline-block;
+    width: 30%; } }
