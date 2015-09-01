@@ -365,7 +365,7 @@ input::-webkit-input-placeholder {
   font-style: italic; }
 
 .full-width {
-  width: 96%; }
+  width: 95%; }
 
 .section-one,
 .section-two,
@@ -411,7 +411,7 @@ button {
 @media screen and (min-width: 48em) {
   .section-one,
   .section-two {
-    width: 46%;
+    width: 45%;
     display: inline-block;
     vertical-align: top; }
   .section-three {
